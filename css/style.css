@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --cor0: #F2CB05;
+    --cor1: #F2B705;
+    --cor2: #F29F05;
+    --cor3: #462f27;
+    --cor4: #0D0D0D;
+}
+
+@font-face {
+    font-family: "Gagalin";
+    src: url(../fontes/gagalin.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Champagne";
+    src: url(../fontes/Champagne\ &\ Limousines.ttf) format('truetype'), url(../fontes/Champagne\ &\ Limousines\ Bold.ttf) format('truetype'), url(../fontes/Champagne\ &\ Limousines\ Bold\ Italic.ttf) format('truetype'), url(../fontes/Champagne\ &\ Limousines\ Italic.ttf) format('truetype');
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #1a1818;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), #271b17);
+    height: 130px;
+    margin: auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+header > div{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+header img{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+nav{
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 7px;
+    font-family: 'Champagne', sans-serif;
+    font-weight: 600;
+}
+
+nav > a{
+    color: var(--cor1);
+    text-decoration: none;
+    margin: 1%;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 400px;
+    margin: auto;
+    line-height: 1.4em;   
+    padding-bottom: 10px;
+}
+
+main > h1{
+    padding: 30px 15px 15px 15px;
+    font-family: "Gagalin", sans-serif;
+}
+
+main p{
+    text-indent: 16px;
+    padding: 30px 15px;
+    text-align: justify;
+    font-family: 'Champagne', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+main p.texto{
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+main > div.img{
+    display: flex;
+}
+
+main > div > h2{
+    padding: 15px;
+    font-family: "Gagalin", sans-serif;
+}
+
+main h2{
+    text-indent: 16px;
+}
+
+main > div > picture > img.espetinho{
+    padding: 16px;
+    border-radius: 30px;
+}
+
+main > div > picture > img.patrao{
+    padding: 16px;
+    border-radius: 30px;
+}
+
+div#foto-tiago p{ 
+    width: 93%;
+    margin-right: 110px;
+}
+
+main > div > picture > img.patroa{
+    padding: 16px;
+    margin-left: -5px;
+    border-radius: 30px;
+}
+
+#insta{
+    margin: 5px 0px;
+    padding: 0;
+}
+
+#face{
+    margin: 5px 0px 0px 0px;
+    padding: 0;
+}
+
+hr{
+    margin: 10px 0px;
+}
+footer{
+    padding: 10px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+    background-color: var(--cor2);
+}
+
+@media(max-width: 450px) {
+    div.img{
+        flex-direction: column;
+        align-items: center;
+    }
+    div#foto-tiago article{
+        order: -1;
+    }
+}
+
+@media(max-width: 375px) {
+    
+}
