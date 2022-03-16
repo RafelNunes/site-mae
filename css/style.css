@@ -48,16 +48,15 @@ header img{
 
 nav{
     align-items: center;
-    margin-left: 15px;
-    margin-top: 7px;
+    margin: 7px 15px;
     font-family: 'Champagne', sans-serif;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 nav > a{
     color: var(--cor1);
     text-decoration: none;
-    margin: 1%;
+    font-size: 1.7em;
     padding: 5px;
     transition: .5s;
     border-radius: 10px;
@@ -78,7 +77,7 @@ main{
 }
 
 main > h1{
-    padding: 30px 15px 15px 15px;
+    padding: 30px 15px;
     font-family: "Gagalin", sans-serif;
 }
 
@@ -87,26 +86,26 @@ main p{
     padding: 30px 15px;
     text-align: justify;
     font-family: 'Champagne', sans-serif;
-    font-weight: 600;
-    font-size: 1.6rem;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 main p.texto{
-    text-align: left;
-    font-size: 1.6rem;
+    padding-top: 95px;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.6em;
 }
 
 main > div.img{
     display: flex;
 }
 
-main > div > h2{
-    padding: 15px;
-    font-family: "Gagalin", sans-serif;
-}
-
 main h2{
     text-indent: 16px;
+    padding: 30px 0px 0px 0px;
+    font-size: 3rem;
+    font-family: "Gagalin", sans-serif;
 }
 
 main > div > picture > img.espetinho{
@@ -119,15 +118,13 @@ main > div > picture > img.patrao{
     border-radius: 30px;
 }
 
-div#foto-tiago p{ 
-    width: 93%;
-    margin-right: 110px;
-}
-
 main > div > picture > img.patroa{
     padding: 16px;
-    margin-left: -5px;
     border-radius: 30px;
+}
+
+hr{
+    margin: 10px 0px;
 }
 
 #insta{
@@ -140,9 +137,6 @@ main > div > picture > img.patroa{
     padding: 0;
 }
 
-hr{
-    margin: 10px 0px;
-}
 footer{
     padding: 10px;
     font-size: 1.6rem;
@@ -159,8 +153,4 @@ footer{
     div#foto-tiago article{
         order: -1;
     }
-}
-
-@media(max-width: 375px) {
-    
 }
