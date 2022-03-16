@@ -47,8 +47,9 @@ header img{
 }
 
 nav{
-    align-items: center;
+    text-align: center;
     margin: 7px 15px;
+    padding-right: 10px;
     font-family: 'Champagne', sans-serif;
     font-weight: bold;
 }
@@ -77,8 +78,9 @@ main{
 }
 
 main > h1{
-    padding: 30px 15px;
+    padding: 25px 15px;
     font-family: "Gagalin", sans-serif;
+    font-size: 3.7rem;
 }
 
 main p{
@@ -108,33 +110,24 @@ main h2{
     font-family: "Gagalin", sans-serif;
 }
 
-main > div > picture > img.espetinho{
+main > div > picture > img.foto{
     padding: 16px;
     border-radius: 30px;
 }
 
-main > div > picture > img.patrao{
-    padding: 16px;
-    border-radius: 30px;
-}
-
-main > div > picture > img.patroa{
-    padding: 16px;
-    border-radius: 30px;
-}
 
 hr{
     margin: 10px 0px;
 }
 
-#insta{
-    margin: 5px 0px;
-    padding: 0;
+div#redes-sociais > p{
+    margin: 0;
+    padding: 10px;
 }
 
-#face{
-    margin: 5px 0px 0px 0px;
-    padding: 0;
+div#redes-sociais > p > a{
+    text-decoration: none;
+    color: #F29F05;
 }
 
 footer{
